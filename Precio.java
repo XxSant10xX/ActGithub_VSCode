@@ -9,6 +9,7 @@ public class diez {
         // Crear un objeto Scanner para la entrada de datos desde la consola
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Bienvenidos a mi progrma que calcula IMPUESTOS");
         // Solicitar la base imponible al usuario
         System.out.print("Introduce la base imponible (precio antes de impuestos): ");
         double baseImponible = scanner.nextDouble();
